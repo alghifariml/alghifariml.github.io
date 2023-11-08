@@ -1,20 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #333;
-    color: rgb(227, 172, 172);
-    text-align: left;
-    padding: 10px;
-    border-bottom: solid 2px #FFCC00;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
 
-.banner-image {
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section1 {
+    background-color: #f4f4f4;
+}
+
+.section2 {
+    background-color: #ddd;
+}
+
+.section3 {
+    background-color: #ccc;
+}
+
+.section4 {
+    background-color: #bbb;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
