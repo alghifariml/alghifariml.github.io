@@ -5,38 +5,66 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+    color: rgb(255, 24, 24);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: solid 2px #FFCC00;
+
 }
 
-.section {
-    padding: 2rem;
-    text-align: center;
+.banner img {
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
 }
 
 .section1 {
-    background-color: #f4f4f4;
+    align-items: left;
+     padding-bottom: 5px;
 }
 
-.section2 {
-    background-color: #ddd;
+.layout {
+    width: 960px;
+    height: auto;
+  
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+.grid1 img {
+    width: 25%;
+    float: left;
+    padding-right: 10px;
 }
 
-.section3 {
-    background-color: #ccc;
+.grid h3 {
+    width: 100px;
+    flex-direction: row;
 }
 
-.section4 {
-    background-color: #bbb;
+.grid1 h3 {
+    margin-top: 0px;
+    margin-bottom: 1px;
+    color: red;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    
+}
+.grid1 p {
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #999999;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1px;
     position: relative;
     bottom: 0;
     width: 100%;
